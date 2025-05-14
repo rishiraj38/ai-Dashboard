@@ -3,7 +3,7 @@ import React from "react";
 
 const AvatarCard = ({ name, image }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center hover:shadow-xl transition">
+    <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center hover:shadow-xl transition cursor-pointer">
       <img
         src={image}
         alt={name}
