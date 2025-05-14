@@ -1,5 +1,4 @@
 "use client";
-// components/FloatingButton.jsx
 import React from "react";
 
 const FloatingButton = ({ setShowModal }) => {
